@@ -1,0 +1,254 @@
+.fasd{
+    position: absolute;
+    left: 18%;
+    top: 10%;
+    height: 40px;
+    width: 500px;
+    padding-left: 10px;
+    border: solid rgb(11, 11, 42);
+}
+
+.fruit{
+    position: absolute;
+    top: 20%;
+    list-style-type: none;
+    left: 1%;
+    width: 800px;
+    height: 370px;
+    overflow-y: scroll;
+    animation: aka 5s ease;
+    animation-duration: 5s;
+  
+    
+}
+
+
+::-webkit-scrollbar{
+    background-color: rgb(17, 138, 179)transparent;
+    border-radius: 20px;
+
+}
+
+.mo{
+    width: 650px;
+    height: 100px;
+   border: solid rgb(11, 11, 42) ;
+   margin: 10px;
+   padding: 13px;
+
+}
+.nuy{
+    position: relative;
+    top: 17.2%;
+    left: 25.3%;
+    font-weight: bold;
+}
+
+.nok{
+    position: relative;
+    top: 1%;
+    left: 56%;
+    font-weight: bold;
+}
+
+.dok{
+    position: relative;
+    top: -34%;
+    left: 82%;
+    font-weight: bold;
+}
+.scd{
+    display: none;
+}
+
+.lem{
+    position: absolute;
+    top: 88.7%;
+    left: 60%;
+    color:rgb(12, 12, 36) ;
+   
+    
+   
+}
+.shii{
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tot{
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.nomo{
+    position: absolute;
+    top: 88.7%;
+    left: 5%;
+   
+}
+.bomo{
+    @extend .shii
+}
+
+#onm{
+    position: absolute;
+    left: 85%;
+    top: 5%;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(11, 11, 42);
+    color: white;
+   &:hover{
+    background-color: black;
+    transition: 1s;
+   }
+}
+
+.asak{
+    position: absolute;
+    top: 82%;
+    left: 38%;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    background-color: rgb(11, 11, 42);
+    color: white;
+    border-radius: 100px;
+    border: solid  rgb(11, 11, 42) ;
+   &:hover{
+    background-color: white;
+    color: rgb(11, 11, 42) ;
+    transition: 1s;
+   }
+}
+
+#maf{
+ position: absolute;
+ top: 40%;
+ left: 35%;
+ font-size: 35px;
+ font-weight: bolder;
+ text-shadow: 10px 10px 3px;
+
+}
+.head{
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    font-size: 22px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:   rgb(11, 11, 42);
+}
+
+.vek{
+    position: absolute;
+    left: 27%;
+    font-weight: bold;
+
+}
+.vok{
+    position: absolute;
+    margin-top: -17px;
+    left: 46%;
+    font-weight: bold;
+    
+}
+
+.faj{
+    position: absolute;
+    margin-top: 3%;
+    left: 48%;
+    height: 29px;
+    width: 223.1px;
+    padding-left: 5px;
+ 
+}
+
+.vak{
+    position: relative;
+    top: -16%;
+    left: 80.5%;
+}
+
+#bk{
+    position: absolute;
+    margin-top: 3%;
+    left: 76.4%;
+    height: 35px;
+    width: 100px;
+    background-color: rgb(11, 11, 42);
+    color: white;
+    border: solid  rgb(11, 11, 42) ;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+   &:hover{
+    background-color: rgb(25, 23, 23);
+    color: rgb(229, 229, 242) ;
+    transition: 1s;
+   }
+
+}
+
+.fij{
+    position: absolute;
+    margin-top: 3%;
+    left: 18.5%;
+    height: 29px;
+    width: 233px;
+    padding-left: 5px;
+}
+
+#mk{
+    position: absolute;
+    margin-top: 3%;
+    left: 6.5%;
+    height: 35px;
+    width: 100px;
+
+    background-color: rgb(11, 11, 42);
+    color: white;
+    border: solid  rgb(11, 11, 42) ;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+   &:hover{
+    background-color: rgb(25, 23, 23);
+    color: rgb(229, 229, 242) ;
+    transition: 1s;
+   }
+}
+
+.deta{
+    position: absolute;
+    margin-top:-2% ;
+    left:6.5% ;
+    padding-left: 5px;
+    font-weight: bolder;
+    color:   rgb(11, 11, 42);
+}
+
+.cout{
+height: 50px;
+width: 50px;
+position: absolute;
+left: 10px;
+top: 10px;
+color: red;
+}
+
+@keyframes aka {
+    from{top: 30%; }
+    to{top: 20%;}
+}
+

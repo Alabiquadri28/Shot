@@ -1,0 +1,38 @@
+
+$Primary: linear-gradient(100deg,rgb(247, 243, 247),rgb(247, 243, 247));
+
+body{
+    background: $Primary;
+}
+.boss{
+    background: linear-gradient(100deg, #0b0b21, #0b0b21);
+    height: 620px;
+    width: 1200px;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    border-radius: 20px;
+    color: white;
+}
+
+.asbos{
+    background: $Primary;
+    position: absolute;
+    left: 20%;
+    top: 1%;
+    height: 608px;
+    width: 955px;
+    border-radius: 20px;
+    color:black;
+ 
+  
+    
+       
+}
+@import './bosswork';
+@import './asbosswork';
+@import './task';
+@import './list';
+@import './sta';
+@import './adsta';
+@import './count'

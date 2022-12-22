@@ -1,0 +1,1058 @@
+body {
+  background: linear-gradient(100deg, rgb(247, 243, 247), rgb(247, 243, 247));
+}
+
+.boss {
+  background: linear-gradient(100deg, #0b0b21, #0b0b21);
+  height: 620px;
+  width: 1200px;
+  position: absolute;
+  left: 5%;
+  top: 3%;
+  border-radius: 20px;
+  color: white;
+}
+
+.asbos {
+  background: linear-gradient(100deg, rgb(247, 243, 247), rgb(247, 243, 247));
+  position: absolute;
+  left: 20%;
+  top: 1%;
+  height: 608px;
+  width: 955px;
+  border-radius: 20px;
+  color: black;
+}
+
+.bosswork {
+  position: absolute;
+  top: 15%;
+  left: 1.3%;
+}
+
+.kop {
+  height: 50px;
+  width: 140px;
+  margin: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 2.6;
+  padding-left: 60px;
+}
+.kop:hover {
+  background-color: rgb(207, 111, 207);
+  transition: 1s;
+  font-weight: bolder;
+}
+
+.container {
+  position: absolute;
+  top: 18.5%;
+  left: 3%;
+}
+
+#mago {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  left: 33%;
+  top: 30%;
+}
+
+#mugo {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  left: 33%;
+  top: 60px;
+}
+
+#mkgo {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  left: 33%;
+  top: 120px;
+}
+
+#mego {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  left: 33%;
+  top: 179px;
+}
+
+#mogo {
+  position: absolute;
+  z-index: 2;
+  font-size: 25px;
+  left: 33%;
+  top: 238px;
+}
+
+.logo {
+  position: absolute;
+  top: 6%;
+  left: 3%;
+  display: inline-flex;
+}
+
+.kiy {
+  position: absolute;
+  left: 40px;
+  top: -6px;
+  background-color: rgb(207, 111, 207);
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 2;
+  border-radius: 30px;
+  font-family: cursive;
+}
+
+.book {
+  position: absolute;
+  left: 92px;
+  font-family: cursive;
+}
+
+.cew {
+  background-color: rgb(220, 200, 220);
+  height: 180px;
+  width: 200px;
+  position: absolute;
+  top: 68%;
+  left: 1.5%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.omo {
+  color: #0b0b21;
+  font-size: 15px;
+  position: absolute;
+  top: 68%;
+  left: 5%;
+  width: 5rem;
+  font-weight: bold;
+}
+
+.omi {
+  color: #0b0b21;
+  font-size: 15px;
+  position: absolute;
+  top: 65%;
+  left: 55%;
+  width: 5rem;
+  font-weight: bold;
+}
+
+.mip {
+  position: absolute;
+  top: 70%;
+  left: 13%;
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  background-color: rgb(207, 111, 207);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.bam {
+  position: absolute;
+  border: 1px solid black;
+  left: 48%;
+  height: 180px;
+}
+
+.zeo {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  color: black;
+}
+
+.ro {
+  position: absolute;
+  left: 70%;
+  top: 20%;
+  color: black;
+}
+
+#tab {
+  position: absolute;
+  top: 6%;
+  left: 18%;
+  font-size: 30px;
+  color: rgb(11, 11, 42);
+}
+
+#cir {
+  position: absolute;
+  top: 6%;
+  left: 68%;
+  font-size: 30px;
+  color: rgb(11, 11, 42);
+}
+
+.lig {
+  position: absolute;
+  left: 30%;
+  color: wheat;
+  -webkit-animation: aba 10s ease-in infinite;
+          animation: aba 10s ease-in infinite;
+}
+
+@-webkit-keyframes aba {
+  from {
+    left: 5px;
+    top: 40%;
+  }
+  to {
+    left: 30%;
+  }
+}
+
+@keyframes aba {
+  from {
+    left: 5px;
+    top: 40%;
+  }
+  to {
+    left: 30%;
+  }
+}
+.dri {
+  background-color: rgb(220, 200, 220);
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  border-top-left-radius: 20px;
+}
+
+.dro {
+  background-color: #0b0b21;
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  left: 33.6%;
+}
+
+.dry {
+  background-color: rgb(220, 200, 220);
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  left: 65.3%;
+  border-top-right-radius: 20px;
+}
+
+.drp {
+  background-color: #0b0b21;
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  top: 50.1%;
+}
+
+.die {
+  background-color: rgb(220, 200, 220);
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  left: 33.6%;
+  top: 50.1%;
+}
+
+.don {
+  background-color: #0b0b21;
+  height: 310px;
+  width: 333.4px;
+  position: absolute;
+  border: px solid rgb(220, 200, 220);
+  left: 65.3%;
+  border-bottom-right-radius: 20px;
+  top: 50.1%;
+}
+
+.enter {
+  background: linear-gradient(100deg, rgb(19, 9, 19), rgb(171, 145, 171));
+  height: 400px;
+  width: 540px;
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  border-radius: 50px;
+  line-height: 2;
+}
+
+.fro {
+  position: absolute;
+  left: 10%;
+}
+
+.sam {
+  height: 30px;
+  width: 200px;
+  padding-left: 10px;
+  font-size: 15px;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.xas {
+  height: 30px;
+  width: 100px;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+
+.log {
+  position: absolute;
+  left: 40%;
+  font-style: italic;
+}
+
+.sip {
+  position: absolute;
+  top: 22%;
+  left: 5%;
+}
+
+.vit {
+  display: none;
+}
+
+.fit {
+  display: block;
+}
+
+.ver {
+  position: absolute;
+  top: 12%;
+  height: 40px;
+  width: 400px;
+  padding-left: 10px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.cov {
+  background-color: #0b0b21;
+  height: 60px;
+  width: 450px;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  padding-left: 20px;
+}
+
+.fer {
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  height: 40px;
+  width: 100px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.fer:hover {
+  background: linear-gradient(100deg, rgb(233, 155, 233), rgb(171, 145, 171));
+  color: white;
+  font-weight: bolder;
+  transition: 1s;
+}
+
+.mer {
+  position: absolute;
+  top: 13%;
+  left: 58%;
+  height: 40px;
+  width: 100px;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.mer:hover {
+  background: linear-gradient(100deg, rgb(171, 145, 171), rgb(233, 155, 233));
+  color: white;
+  font-weight: bolder;
+  transition: 1s;
+}
+
+.dov {
+  background-color: #0b0b21;
+  height: 60px;
+  width: 250px;
+  position: absolute;
+  left: 60%;
+  top: 5%;
+  padding-left: 50px;
+}
+
+.buy {
+  background-color: #0b0b21;
+  height: 200px;
+  width: 260px;
+  border-radius: 10px;
+  display: inline-block;
+  overflow-y: scroll;
+  color: white;
+  padding-left: 20px;
+  padding-top: 50px;
+  margin: 10px;
+}
+
+.biss {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  -webkit-animation: alab 5s ease;
+          animation: alab 5s ease;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+.pif {
+  border: 4px solid rgb(10, 6, 10);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  position: absolute;
+  top: 20%;
+  height: 488px;
+  width: 955px;
+  overflow-y: scroll;
+}
+
+.del, .den {
+  position: relative;
+  top: 70%;
+  left: 10%;
+}
+
+#carl, #bao {
+  width: 170px;
+  height: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgb(10, 6, 10);
+  color: white;
+  border-radius: 10px;
+}
+#carl:hover, #bao:hover {
+  background-color: rgb(96, 50, 96);
+  transition: 1s;
+}
+
+.jis {
+  position: relative;
+  top: 4%;
+}
+
+#one {
+  width: 102px;
+  height: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.lip {
+  position: relative;
+  top: -7%;
+  left: 45%;
+}
+
+#two {
+  width: 89px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.gba {
+  position: relative;
+  top: 17%;
+}
+
+#tef {
+  height: 25px;
+  width: 100px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.voy {
+  position: relative;
+  top: 1%;
+  left: 45%;
+}
+
+#yov {
+  height: 30px;
+  width: 100px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgb(10, 6, 10);
+  color: white;
+  border-radius: 10px;
+}
+#yov:hover {
+  background-color: rgb(96, 50, 96);
+  transition: 1s;
+}
+
+.xoh {
+  position: relative;
+  top: -105%;
+  font-size: 15px;
+}
+
+.bon {
+  position: relative;
+  top: -115%;
+  font-size: 15px;
+  left: 40%;
+}
+
+.xit {
+  position: relative;
+  top: -105%;
+  left: 90%;
+}
+
+.cod {
+  text-decoration: line-through;
+}
+
+.bod {
+  text-decoration: none;
+}
+
+.doc {
+  display: none;
+}
+
+.loc {
+  display: block;
+}
+
+.lin {
+  position: relative;
+  border: 1px solid #6c6c98;
+  width: 630px;
+  top: -55%;
+  left: -10%;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(17, 138, 179) transparent;
+  border-radius: 20px;
+}
+
+.tip {
+  background-color: #0b0b21;
+  height: 200px;
+  width: 260px;
+  border-radius: 10px;
+  display: inline-block;
+  color: white;
+  padding-left: 20px;
+  padding-top: 50px;
+  margin: 10px;
+}
+
+.try {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
+.nim {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  position: absolute;
+  top: 20%;
+  height: 488px;
+  width: 955px;
+  overflow-y: scroll;
+}
+
+.hos {
+  position: absolute;
+  left: 35%;
+}
+
+.fle {
+  position: absolute;
+  left: 28.5%;
+  top: 11%;
+  height: 40px;
+  width: 300px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgb(10, 6, 10);
+  color: white;
+  border-radius: 10px;
+}
+.fle:hover {
+  background-color: rgb(96, 50, 96);
+  transition: 1s;
+}
+
+.des {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  text-shadow: rgb(10, 6, 10) 10px 10px 5px;
+}
+
+.les {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  text-shadow: rgb(10, 6, 10) 10px 10px 5px;
+}
+
+@-webkit-keyframes alab {
+  from {
+    top: 10%;
+  }
+  to {
+    top: 2%;
+  }
+}
+
+@keyframes alab {
+  from {
+    top: 10%;
+  }
+  to {
+    top: 2%;
+  }
+}
+.line {
+  border: 2px solid #0b0b21;
+  height: 610px;
+  position: absolute;
+  left: 65%;
+}
+
+.bac {
+  background-color: #12122e;
+  height: 80px;
+  width: 280px;
+  position: absolute;
+  top: 15%;
+  left: 68%;
+  border-radius: 10px;
+  color: white;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.calculator {
+  position: absolute;
+  left: 67.7%;
+  top: 34%;
+}
+
+.bom {
+  height: 60px;
+  width: 50px;
+  background-color: #12122e;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 3;
+}
+.bom:hover {
+  background-color: rgb(116, 33, 116);
+  transition: 1s;
+}
+
+.name {
+  position: absolute;
+  left: 73%;
+  top: 5%;
+  font-size: 25px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+.curv {
+  background-color: #0b0b21;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 2%;
+  top: 13%;
+  border-radius: 10px;
+}
+
+.sama, .kama {
+  background-color: white;
+  height: 50px;
+  width: 5%;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  border-radius: 10px;
+}
+
+.secur {
+  background-color: #0b0b21;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 35%;
+  top: 13%;
+  border-radius: 10px;
+}
+
+.per {
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+
+.ler {
+  color: white;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+
+.dio {
+  color: white;
+  position: absolute;
+  left: 55%;
+  top: 19%;
+  font-size: 18px;
+}
+
+.ra {
+  position: absolute;
+  left: 28%;
+  color: white;
+  top: 5%;
+  font-weight: bolder;
+}
+
+.te {
+  position: absolute;
+  left: 23%;
+  color: white;
+  top: 5%;
+  font-weight: bolder;
+}
+
+.hed {
+  position: absolute;
+  left: 25%;
+  top: 3%;
+  font-size: 25px;
+  color: #0b0b21;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.pig {
+  position: absolute;
+  top: 53%;
+  left: 15%;
+  width: 300px;
+}
+
+.fasd {
+  position: absolute;
+  left: 18%;
+  top: 10%;
+  height: 40px;
+  width: 500px;
+  padding-left: 10px;
+  border: solid rgb(11, 11, 42);
+}
+
+.fruit {
+  position: absolute;
+  top: 20%;
+  list-style-type: none;
+  left: 1%;
+  width: 800px;
+  height: 370px;
+  overflow-y: scroll;
+  -webkit-animation: aka 5s ease;
+          animation: aka 5s ease;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(17, 138, 179) transparent;
+  border-radius: 20px;
+}
+
+.mo {
+  width: 650px;
+  height: 100px;
+  border: solid rgb(11, 11, 42);
+  margin: 10px;
+  padding: 13px;
+}
+
+.nuy {
+  position: relative;
+  top: 17.2%;
+  left: 25.3%;
+  font-weight: bold;
+}
+
+.nok {
+  position: relative;
+  top: 1%;
+  left: 56%;
+  font-weight: bold;
+}
+
+.dok {
+  position: relative;
+  top: -34%;
+  left: 82%;
+  font-weight: bold;
+}
+
+.scd {
+  display: none;
+}
+
+.lem {
+  position: absolute;
+  top: 88.7%;
+  left: 60%;
+  color: rgb(12, 12, 36);
+}
+
+.shii, .bomo {
+  font-size: 18px;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tot {
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.nomo {
+  position: absolute;
+  top: 88.7%;
+  left: 5%;
+}
+
+#onm {
+  position: absolute;
+  left: 85%;
+  top: 5%;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(11, 11, 42);
+  color: white;
+}
+#onm:hover {
+  background-color: black;
+  transition: 1s;
+}
+
+.asak {
+  position: absolute;
+  top: 82%;
+  left: 38%;
+  height: 100px;
+  width: 100px;
+  font-weight: bold;
+  background-color: rgb(11, 11, 42);
+  color: white;
+  border-radius: 100px;
+  border: solid rgb(11, 11, 42);
+}
+.asak:hover {
+  background-color: white;
+  color: rgb(11, 11, 42);
+  transition: 1s;
+}
+
+#maf {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  font-size: 35px;
+  font-weight: bolder;
+  text-shadow: 10px 10px 3px;
+}
+
+.head {
+  position: absolute;
+  top: 10px;
+  left: 35%;
+  font-size: 22px;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(11, 11, 42);
+}
+
+.vek {
+  position: absolute;
+  left: 27%;
+  font-weight: bold;
+}
+
+.vok {
+  position: absolute;
+  margin-top: -17px;
+  left: 46%;
+  font-weight: bold;
+}
+
+.faj {
+  position: absolute;
+  margin-top: 3%;
+  left: 48%;
+  height: 29px;
+  width: 223.1px;
+  padding-left: 5px;
+}
+
+.vak {
+  position: relative;
+  top: -16%;
+  left: 80.5%;
+}
+
+#bk {
+  position: absolute;
+  margin-top: 3%;
+  left: 76.4%;
+  height: 35px;
+  width: 100px;
+  background-color: rgb(11, 11, 42);
+  color: white;
+  border: solid rgb(11, 11, 42);
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#bk:hover {
+  background-color: rgb(25, 23, 23);
+  color: rgb(229, 229, 242);
+  transition: 1s;
+}
+
+.fij {
+  position: absolute;
+  margin-top: 3%;
+  left: 18.5%;
+  height: 29px;
+  width: 233px;
+  padding-left: 5px;
+}
+
+#mk {
+  position: absolute;
+  margin-top: 3%;
+  left: 6.5%;
+  height: 35px;
+  width: 100px;
+  background-color: rgb(11, 11, 42);
+  color: white;
+  border: solid rgb(11, 11, 42);
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+}
+#mk:hover {
+  background-color: rgb(25, 23, 23);
+  color: rgb(229, 229, 242);
+  transition: 1s;
+}
+
+.deta {
+  position: absolute;
+  margin-top: -2%;
+  left: 6.5%;
+  padding-left: 5px;
+  font-weight: bolder;
+  color: rgb(11, 11, 42);
+}
+
+.cout {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: red;
+}
+
+@-webkit-keyframes aka {
+  from {
+    top: 30%;
+  }
+  to {
+    top: 20%;
+  }
+}
+
+@keyframes aka {
+  from {
+    top: 30%;
+  }
+  to {
+    top: 20%;
+  }
+}/*# sourceMappingURL=todo.css.map */

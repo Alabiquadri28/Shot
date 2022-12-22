@@ -1,0 +1,243 @@
+.buy{
+    background-color:#0b0b21;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    display: inline-block;
+   overflow-y:scroll;
+   color: white;
+   padding-left: 20px;
+   padding-top: 50px;
+   margin: 10px;
+   
+   
+  
+    
+}
+
+.biss{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    animation: alab 5s ease;
+    animation-duration: 2s;
+
+    
+   
+    
+}
+.pif{
+    border: 4px solid rgb(10, 6, 10);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 20%;
+    height: 488px;
+    width: 955px;
+    overflow-y: scroll;
+}
+.del{
+   position: relative;
+   top: 70%; 
+   left: 10%;
+  
+   
+}
+
+#carl{
+    width: 170px;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color:rgb(10, 6, 10);
+    color: white;
+    border-radius: 10px;
+    &:hover{
+        background-color:rgb(96, 50, 96);
+        transition: 1s;
+    }
+}
+.jis{
+   position: relative;
+   top: 4%;
+   
+}
+#one{
+    width: 102px;
+    height: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+.lip{
+   
+    position: relative;
+     top: -7%;
+     left: 45%;
+}
+
+#two{
+width: 89px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: none;
+}
+.gba{
+   position: relative;
+   top: 17%;
+}
+#tef{
+    height: 25px;
+    width: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.voy{
+    position: relative;
+     top: 1%;
+     left: 45%;
+     
+}
+#yov{
+    height: 30px;
+    width: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+    background-color:rgb(10, 6, 10);
+    color: white;
+    border-radius: 10px;
+    &:hover{
+        background-color:rgb(96, 50, 96);
+        transition: 1s;
+    }
+}
+.xoh{
+    position: relative;
+    top: -105%;
+    font-size: 15px;
+
+}
+.bon{
+    position: relative;
+    top: -115%;
+    font-size: 15px;
+    left: 40%;
+
+}
+.xit{
+  position: relative;
+  top: -105%;
+  left: 90%;
+}
+  
+
+.cod{
+    text-decoration: line-through;
+}
+
+.bod{
+    text-decoration: none;
+}
+.doc{
+    display: none;
+}
+.loc{
+    display: block;
+}
+.lin{
+    position: relative;
+   border: 1px solid #6c6c98;
+    width: 630px;
+    top:-55%;
+    left: -10%;
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(17, 138, 179)transparent;
+    border-radius: 20px;
+
+}
+.tip{
+    background-color:#0b0b21;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin: 10px;
+}
+
+.try{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+#bao{
+    @extend #carl
+};
+.den{
+    @extend .del
+}
+.nim{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 20%;
+    height: 488px;
+    width: 955px;
+    overflow-y: scroll;
+}
+.hos{
+    position: absolute;
+    left: 35%;
+}
+.fle{
+    position: absolute;
+    left: 28.5%;
+    top: 11%;
+    height: 40px;
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+    background-color:rgb(10, 6, 10);
+    color: white;
+    border-radius: 10px;
+    &:hover{
+        background-color:rgb(96, 50, 96);
+        transition: 1s;
+    }
+}
+.des{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    text-shadow:rgb(10, 6, 10)  10px 10px 5px;
+}
+.les{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-shadow:rgb(10, 6, 10)  10px 10px 5px;
+}
+
+@keyframes alab {
+    from{top: 10%;}
+    to{top: 2%; }
+}

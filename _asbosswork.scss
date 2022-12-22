@@ -1,0 +1,92 @@
+
+@mixin box {
+   
+    height: 310px;
+    width: 333.4px;
+    position: absolute;
+    border: px solid rgb(220, 200, 220);
+   
+}
+
+.dri{
+    background-color: rgb(220, 200, 220);
+    @include box();
+    border-top-left-radius:20px ;
+    
+}
+.dro{
+    background-color: #0b0b21;
+    @include box();
+    left: 33.6%;
+}
+.dry{
+    background-color:rgb(220, 200, 220);
+    @include box();
+   left: 65.3%;
+  border-top-right-radius:20px ;
+}
+.drp{
+    background-color:  #0b0b21;
+    @include box();
+    top: 50.1%;
+}
+.die{
+    background-color: rgb(220, 200, 220);
+    @include box();
+    left: 33.6%;
+    top: 50.1%;
+}
+.don{
+    background-color: #0b0b21;
+    @include box();
+   left: 65.3%;
+    border-bottom-right-radius:20px ;
+    top: 50.1%;
+}
+
+.enter{
+ background: linear-gradient(100deg, rgb(19, 9, 19), rgb(171, 145, 171));
+   height: 400px;
+   width: 540px;
+   position: absolute;
+   left: 20%;
+   top: 20%;
+   border-radius: 50px;
+   line-height: 2;
+}
+.fro{
+    position: absolute;
+    left: 10%;
+}
+.sam{
+    height: 30px;
+    width: 200px; padding-left: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.xas{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.log{
+    position: absolute;
+    left: 40%; 
+    font-style: italic;
+}
+.sip{
+    position: absolute;
+    top: 22%;
+    left: 5%; 
+}
+
+.vit{
+    display: none;
+}
+.fit{
+    display: block;
+}
